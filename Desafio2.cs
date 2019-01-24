@@ -11,9 +11,9 @@ namespace Desafio2
         static void Main(string[] args)
         {
             Console.WriteLine("Digite la longitud de la hipotenusa ");
-            int t = int.Parse(Console.ReadLine());
+            double t = double.Parse(Console.ReadLine());
             Console.WriteLine("Digite el angulo a ");
-            int a = int.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
 
             double c = 90.0 - a;  
             double y = Math.Cos(a * (Math.PI / 180.0)) * t;
